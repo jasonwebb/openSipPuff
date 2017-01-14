@@ -1,0 +1,27 @@
+﻿ID,Qty,Value,Package,Cost,Cost @ 50,Cost @ 100,Part number,Source
+C1,1,1uF,0805,$0.13,$0.0920,$0.0436,445-1358-1-ND,http://www.digikey.com/product-detail/en/C2012X7R1C105K125AA/445-1358-1-ND/567583
+C2,1,0.1uF,0805,$0.20,$0.1350,$0.0641,445-2514-1-ND,http://www.digikey.com/product-detail/en/C2012X8R1H104K125AA/445-2514-1-ND/927171
+C3,1,0.1uF,0805,$0.20,$0.1350,$0.0641,445-2514-1-ND,http://www.digikey.com/product-detail/en/C2012X8R1H104K125AA/445-2514-1-ND/927171
+C4,1,0.1uF,0805,$0.20,$0.1350,$0.0641,445-2514-1-ND,http://www.digikey.com/product-detail/en/C2012X8R1H104K125AA/445-2514-1-ND/927171
+C5,1,10uF,0805,$0.20,$0.1380,$0.0707,445-7660-1-ND,http://www.digikey.com/product-detail/en/C2012X5R1A106K125AB/445-7660-1-ND/2733732
+F1,1,500mA,1206,$0.30,$0.2524,$0.2349,283-3137-1-ND,http://www.digikey.com/product-detail/en/PTS120616V025/283-3137-1-ND/2639169
+J1,1,2x3 ICSP header,,,,,,
+J2,1,I2C header,1x4 male header,$0.17,$0.1204,$0.1118,952-2265-ND,http://www.digikey.com/product-detail/en/M20-9990445/952-2265-ND/3728229
+J3,1,1x4 female header,R/A,$0.73,$0.4826,$0.4343,S5440-ND,http://www.digikey.com/product-detail/en/PPTC041LGBN-RC/S5440-ND/775898
+CN2,,USB mini-B jack,SMT,$0.87,$0.6906,$0.6607,ED2992CT-ND,http://www.digikey.com/product-detail/en/USB-M26FTR/ED2992CT-ND/2677756
+LED1,,Green,0805,$0.30,$0.2380,$0.1296,160-1423-1-ND,http://www.digikey.com/product-detail/en/LTST-C171GKT/160-1423-1-ND/386792
+LED2,,Red,0805,$0.32,$0.2480,$0.1350,160-1427-1-ND,http://www.digikey.com/product-detail/en/LTST-C171KRKT/160-1427-1-ND/386800
+LED3,,Blue,0805,$0.39,$0.2770,$0.1822,160-1579-1-ND,http://www.digikey.com/product-detail/en/LTST-C170TBKT/160-1579-1-ND/564889
+R1,1,22 ohms,0805,$0.10,$0.0196,$0.0149,P22ACT-ND,http://www.digikey.com/product-detail/en/ERJ-6GEYJ220V/P22ACT-ND/87316
+R2,1,22 ohms,0805,$0.10,$0.0196,$0.0149,P22ACT-ND,http://www.digikey.com/product-detail/en/ERJ-6GEYJ220V/P22ACT-ND/87316
+R3,1,10k,0805,$0.10,$0.0196,$0.0149,P10KACT-ND,http://www.digikey.com/product-detail/en/ERJ-6GEYJ103V/P10KACT-ND/43118
+R4,1,82 ohms,0805,$0.10,$0.0196,$0.0149,P82ACT-ND,http://www.digikey.com/product-detail/en/ERJ-6GEYJ820V/P82ACT-ND/42830
+R5,1,1.3k,0805,$0.10,$0.0196,$0.0149,P1.3KACT-ND,http://www.digikey.com/product-detail/en/ERJ-6GEYJ132V/P1.3KACT-ND/77802
+R6,,150 ohms,0805,$0.10,$0.0152,$0.0084,311-150CRCT-ND,http://www.digikey.com/product-detail/en/RC0805FR-07150RL/311-150CRCT-ND/730560
+R7,,100 ohms,0805,$0.10,$0.0152,$0.0084,311-100CRCT-ND,http://www.digikey.com/product-detail/en/RC0805FR-07100RL/311-100CRCT-ND/730490
+U1,1,ATMEGA32U4,44-TQFP,$6.38,$5.2308,$4.7204,ATMEGA32U4-AU-ND,http://www.digikey.com/product-detail/en/ATMEGA32U4-AU/ATMEGA32U4-AU-ND/1914602
+U2,1,AD8223,8-MSOP,$3.26,$2.6228,$2.3854,AD8223ARMZ-R7CT-ND,http://www.digikey.com/product-detail/en/AD8223ARMZ-R7/AD8223ARMZ-R7CT-ND/1979416
+U3,1,MX12GP,4-SIP,$8.69,$7.73,$6.2790,MPX12GP-ND,http://www.digikey.com/product-detail/en/MPX12GP/MPX12GP-ND/951783
+Y1,,16MHz,3-SMD,$0.48,$0.3602,$0.3205,490-1198-1-ND,http://www.digikey.com/product-detail/en/CSTCE16M0V53-R0/490-1198-1-ND/584635
+,,,,,,,,
+,,,Total,$23.52,$19.01,$15.99,,
