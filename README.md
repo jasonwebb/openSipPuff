@@ -20,10 +20,12 @@ Currently whenever an end user wants to change how pressure data events are asso
 
 Therefore my current plan is to experiment with [Electron](http://electron.atom.io/) to build a modern, cross-platform desktop application using web technologies to create a simple, intuitive interface that allows for easy reconfiguration of the board over a transparent serial connection.
 
-## Relevant links
-* Wiki article on my personal wiki: http://jason-webb.info/wiki/index.php?title=OpenSip%2BPuff
-* All my blog posts about it: http://jason-webb.info/tag/openSipPuff
-* Hackaday.io project: https://hackaday.io/project/12959-opensippuff
+## License
+This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
+
+Use this project to learn, tinker and share with friends. Small commercial runs for workshops or other educational uses is completely cool, but please contact me if you'd like to mass produce this project for profit.
+
+[![Creative Commons license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
 ## Photos
 
