@@ -4,8 +4,6 @@ __openSip+Puff__ aims to provide a cheap, simple, open and modern alternative in
 
 The ultimate goal of this project is to go beyond simple utilitarian functionality and provide a new modality for creative expression that is meaningful for people with or without limited mobility. For me this means musical expression and visual art applications, but you are welcome to take it in whatever direction you want!
 
----
-
 ## Features
 ### Hardware
 The core functionality of this project is built upon the capabilities of the [ATmega32U4 microcontroller](https://github.com/jasonwebb/openSipPuff/blob/master/datasheets/ATMega32u4.pdf) running the [Arduino Leonardo bootloader](https://www.arduino.cc/en/Main/ArduinoBoardLeonardo) paired with an analog pressure sensor.
@@ -22,15 +20,11 @@ Currently whenever an end user wants to change how pressure data events are asso
 
 Therefore my current plan is to experiment with [Electron](http://electron.atom.io/) to build a modern, cross-platform desktop application using web technologies to create a simple, intuitive interface that allows for easy reconfiguration of the board over a transparent serial connection.
 
----
-
-### Relevant links
+## Relevant links
 * Wiki article on my personal wiki: http://jason-webb.info/wiki/index.php?title=OpenSip%2BPuff
 * All my blog posts about it: http://jason-webb.info/tag/openSipPuff
 * Hackaday.io project: https://hackaday.io/project/12959-opensippuff
 
----
-
-### Photos
+## Photos
 
 ![Assembled prototype](docs/images/assembled-prototype.jpg)
