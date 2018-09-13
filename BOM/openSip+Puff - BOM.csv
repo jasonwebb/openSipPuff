@@ -1,0 +1,28 @@
+ID,Specifications,Purpose,Cost @ 1,Cost @ 25,Cost @ 50,Cost @ 100,Part number,URL
+C1,1uF capacitor (0805),USB smoothing cap for U1,$0.28,$0.19,$0.19,$0.11,399-8003-1-ND,https://www.digikey.com/product-detail/en/kemet/C0805C105K3PACTU/399-8003-1-ND/3471726
+C2,0.1uF capacitor (0805),Power smoothing for U1,$0.30,$0.21,$0.21,$0.10,709-1185-1-ND,https://www.digikey.com/product-detail/en/johanson-dielectrics-inc/250R15W104KV4T/709-1185-1-ND/1859517
+C3,0.1uF capacitor (0805),Power smoothing for U1,$0.30,$0.21,$0.21,$0.10,709-1185-1-ND,https://www.digikey.com/product-detail/en/johanson-dielectrics-inc/250R15W104KV4T/709-1185-1-ND/1859517
+C4,0.1uF capacitor (0805),Power smoothing for U1,$0.30,$0.21,$0.21,$0.10,709-1185-1-ND,https://www.digikey.com/product-detail/en/johanson-dielectrics-inc/250R15W104KV4T/709-1185-1-ND/1859517
+C5,10uF polarized tantalum capacitor (1206),Input power smoothing,$0.41,$0.28,$0.28,$0.17,399-3683-1-ND,https://www.digikey.com/product-detail/en/kemet/T491A106K006AT/399-3683-1-ND/819008
+C6,1uF capacitor (0805),Power smoothing for P1,$0.28,$0.19,$0.19,$0.11,399-8003-1-ND,https://www.digikey.com/product-detail/en/kemet/C0805C105K3PACTU/399-8003-1-ND/3471726
+C7,0.01uF capactor (0805),Power smoothing for P1,$0.48,$0.33,$0.33,$0.20,399-7990-1-ND,https://www.digikey.com/product-detail/en/kemet/C0805C103J3GACTU/399-7990-1-ND/3471713
+C8,0.33uF capacitor (0805),Low-pass filter for P1,$0.20,$0.15,$0.15,$0.07,1276-1797-1-ND,https://www.digikey.com/product-detail/en/samsung-electro-mechanics/CL21B334KOCNNNC/1276-1797-1-ND/3889883
+CN1,USB mini-B,USB connector,$0.54,$0.50,$0.41,$0.39,151-1206-1-ND,https://www.digikey.com/product-detail/en/edac-inc/690-005-299-043/151-1206-1-ND/4312192
+F1,500mA PTC fuse,"Protect board from spikes over USB, and USB from shorts",$0.13,$0.13,$0.11,$0.10,507-1799-1-ND,https://www.digikey.com/product-detail/en/bel-fuse-inc/0ZCJ0025AF2E/507-1799-1-ND/4156322
+J1,2x3 header (left blank),ICSP interface,,,,,,
+J2,1x4 header (left blank),I2C breakout interface,,,,,,
+LED1,20mA @ 2V green LED (0805),Power indicator LED (green),$0.31,$0.17,$0.17,$0.12,160-1426-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171KGKT/160-1426-1-ND/386798
+LED2,20mA @ 2V red LED (0805),Sip indicator LED (red),$0.35,$0.19,$0.19,$0.13,160-1415-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C170KRKT/160-1415-1-ND/386778
+LED3,20mA @ 3.3V blue LED (0805),Puff indicator LED (blue),$0.50,$0.28,$0.28,$0.18,160-1645-1-ND,https://www.digikey.com/product-detail/en/lite-on-inc/LTST-C171TBKT/160-1645-1-ND/573585
+P1,MPXV7007GP,Pressure sensor,$17.70,$13.42,$13.05,$13.05,MPXV7007GP-ND,https://www.digikey.com/products/en?keywords=mpxv7007gp
+R1,22ohm resistor (0805),USB termination resistors,$0.10,$0.05,$0.05,$0.02,311-22.0CRCT-ND,https://www.digikey.com/product-detail/en/yageo/RC0805FR-0722RL/311-22.0CRCT-ND/730682
+R2,22ohm resistor (0805),USB termination resistors,$0.10,$0.05,$0.05,$0.02,311-22.0CRCT-ND,https://www.digikey.com/product-detail/en/yageo/RC0805FR-0722RL/311-22.0CRCT-ND/730682
+R3,10k resistor (0805),RESET line pullup,$0.17,$0.14,$0.14,$0.05,RNCF0805DTE10K0CT-ND,https://www.digikey.com/product-detail/en/stackpole-electronics-inc/RNCF0805DTE10K0/RNCF0805DTE10K0CT-ND/2687083
+R4,150ohm resistor (0805),Current limit for LED1,$0.10,$0.09,$0.09,$0.03,RHM150KCT-ND,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPJ151/RHM150KCT-ND/1762967
+R5,750ohm resistor (0805),,$0.36,$0.30,$0.30,$0.12,P750DACT-ND,https://www.digikey.com/product-detail/en/panasonic-electronic-components/ERA-6AEB751V/P750DACT-ND/1465944
+R6,150ohm resistor (0805),Current limit for LED2,$0.10,$0.09,$0.09,$0.03,RHM150KCT-ND,https://www.digikey.com/product-detail/en/rohm-semiconductor/ESR10EZPJ151/RHM150KCT-ND/1762967
+R7,84.5ohm resistor (0805),Current limit for LED3,$0.10,$0.06,$0.06,$0.02,311-84.5CRCT-ND,https://www.digikey.com/product-detail/en/yageo/RC0805FR-0784R5L/311-84.5CRCT-ND/731119
+U1,ATMega32u4,Microcontroller,$4.20,$3.85,$3.85,$3.49,ATMEGA32U4-AURCT-ND,https://www.digikey.com/product-detail/en/microchip-technology/ATMEGA32U4-AUR/ATMEGA32U4-AURCT-ND/3440960
+Y1,16MHz resonator,Resonator for microcontoller,$0.30,$0.25,$0.22,$0.20,490-17948-1-ND,https://www.digikey.com/product-detail/en/murata-electronics-north-america/CSTNE16M0V530000R0/490-17948-1-ND/8747756
+,,,,,,,,
+,,Total,$27.61,$21.28,$20.79,,,
