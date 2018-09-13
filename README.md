@@ -29,4 +29,4 @@ Use this project to learn, tinker and share with friends. Small commercial runs 
 
 ## Photos
 
-![Assembled prototype](docs/assembled-prototype.jpg)
+![Assembled prototype](images/assembled-prototype.jpg)
