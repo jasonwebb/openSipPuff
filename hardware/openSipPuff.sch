@@ -11605,6 +11605,7 @@ Source: Mitsubishi M5218AL/P/FP</description>
 <text x="-5.588" y="-6.985" size="1.27" layer="25" rot="R90">&gt;NAME</text>
 <text x="6.858" y="-6.985" size="1.27" layer="27" rot="R90">&gt;VALUE</text>
 <wire x1="5.08" y1="-7.1628" x2="5.08" y2="7.1628" width="0.2032" layer="21"/>
+<circle x="0" y="0" radius="1.524" width="0.0254" layer="20"/>
 </package>
 </packages>
 <symbols>
