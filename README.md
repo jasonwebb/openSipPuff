@@ -6,19 +6,44 @@ The ultimate goal of this project is to go beyond simple utilitarian functionali
 
 ## Features
 ### Hardware
-The core functionality of this project is built upon the capabilities of the [ATmega32U4 microcontroller](https://github.com/jasonwebb/openSipPuff/blob/master/datasheets/ATMega32u4.pdf) running the [Arduino Leonardo bootloader](https://www.arduino.cc/en/Main/ArduinoBoardLeonardo) paired with an analog pressure sensor.
-
-Currently this project uses the [MPX12GP](https://github.com/jasonwebb/openSipPuff/blob/master/datasheets/MPX12.pdf) pressure sensor from Freescale, which requires an instrumentation amplifier in order to interface with the microcontroller. However, this sensor has proven to be hard to integrate into a manufacturable design, so I will be experimenting with another sensor very soon.
+* ATmega32u4 microcontroller running the [Arduino Leonardo bootloader](https://www.arduino.cc/en/Main/ArduinoBoardLeonardo), allowing for the device to work as a standard USB HID device (mouse, keyboard, MIDI, etc) without any special drivers.
+* [MPXV7007GP](https://www.digikey.com/product-detail/en/nxp-usa-inc/MPXV7007GP/MPXV7007GP-ND/1168441) analog pressure sensor for detecting direction and strength of sips and puffs.
+* USB mini-B port so it can be connected to any PC
+* 4-pin I2C interface for future expansion
 
 ### Firmware
-Thanks to the [Arduino Leonardo bootloader](https://www.arduino.cc/en/Main/ArduinoBoardLeonardo), __openSip+Puff__ can mimic generic USB devices such as keyboards, mice, game controllers, or musical instruments allowing data from the pressure sensor to be associated with real actions on the user's computer.
-
-The current firmware uses a rather crude data structure stored in EEPROM to do this association, but I am hoping to come up with a more elegant solution over time. If you know of a good way to do this, please consider detailing your idea in an Issue or a fork!
+```
+TODO:
+=====
+  1. Sips and puffs need to be associated with actions (keypresses, mouse clicks, MIDI notes, etc) using some sort of persistent data structure that can be loaded from EEPROM when the device is powered on.
+  2. Patterns of sips and puffs should also be supported at some point. For example, one puff for left mouse click, two puffs for right mouse click.
+  3. Output raw analog values as serial data over USB to be transformed into other interesting actions by custom applications or something like Wekinator.
+  4. Output analog data as MIDI CC changes so the device can be used for expressive musical applications.
+```
 
 ### Software
-Currently whenever an end user wants to change how pressure data events are associated with keyboard/mouse/etc behaviors they need to dive into the firmware code, make alterations and upload a fresh sketch. For developers this is pretty trivial, but I ultimately want this process to be easier for non-developers.
+```
+TODO:
+=====
+To make it easy for non-technical users to reconfigure the device, some sort of easy-to-use desktop application should be built. 
 
-Therefore my current plan is to experiment with [Electron](http://electron.atom.io/) to build a modern, cross-platform desktop application using web technologies to create a simple, intuitive interface that allows for easy reconfiguration of the board over a transparent serial connection.
+Once the firmware is worked out, I'd like to experiment with using Electron and modern web technologies to build this interface. 
+```
+
+### Mechanical
+```
+TODO:
+=====
+Connecting a plain plastic tube directly the sensor is fine for prototyping, but is not hygienic for real-world users. Some sort of easy-to-replace filter(s) should be added to capture saliva and particulates before they reach the sensor. 
+
+I don't know much about these sorts of filters, so if you have some experience or ideas please send them to me!
+```
+
+## Similar projects
+When I started building this project there weren't any other viable DIY sip-and-puff interfaces out there, but in the past year so a few great projects have sprung up that are worth looking at!
+
+* [LipSync](https://github.com/makersmakingchange/LipSync) - uses an Arduino Micro board and the [MPXV7002DPT1](https://www.digikey.com/product-detail/en/nxp-usa-inc/MPXV7002DPT1/MPXV7002DPT1CT-ND/3524215) sensor, as well as an optional Bluetooth breakout board. Includes a custom mouth-operated joystick built using 3D-printed parts and FSRs, all housed in a 3D-printed enclosure.
+* [FLipMouse](https://github.com/asterics/FLipMouse) - uses a Teensy LC and the [MPXV7007GP](https://www.digikey.com/product-detail/en/nxp-usa-inc/MPXV7007GP/MPXV7007GP-ND/1168441) sensor. Includes a custom mouth-operated joystick that is nearly identical to LipSync, all housed in a laser-cut acrylic enclosure.
 
 ## License
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
@@ -29,6 +54,6 @@ The only reason that a fully-permissive open-source license is not used is to di
 
 [![Creative Commons license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
-## Photos
+## Media
 
-![Assembled prototype](images/assembled-prototype.jpg)
+![Assembled prototype](media/assembled-prototype.jpg)
