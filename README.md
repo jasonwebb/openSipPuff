@@ -15,28 +15,38 @@ The ultimate goal of this project is to go beyond simple utilitarian functionali
 ```
 TODO:
 =====
-  1. Sips and puffs need to be associated with actions (keypresses, mouse clicks, MIDI notes, etc) using some sort of persistent data structure that can be loaded from EEPROM when the device is powered on.
-  2. Patterns of sips and puffs should also be supported at some point. For example, one puff for left mouse click, two puffs for right mouse click.
-  3. Output raw analog values as serial data over USB to be transformed into other interesting actions by custom applications or something like Wekinator.
-  4. Output analog data as MIDI CC changes so the device can be used for expressive musical applications.
+  1. Sips and puffs need to be associated with actions (keypresses, mouse 
+     clicks, MIDI notes, etc) using some sort of persistent data structure 
+     that can be loaded from EEPROM when the device is powered on.
+  2. Patterns of sips and puffs should also be supported at some point. For 
+     example, one puff for left mouse click, two puffs for right mouse click.
+  3. Output raw analog values as serial data over USB to be transformed into 
+     other interesting actions by custom applications or something like Wekinator.
+  4. Output analog data as MIDI CC changes so the device can be used for 
+     expressive musical applications.
 ```
 
 ### Software
 ```
 TODO:
 =====
-To make it easy for non-technical users to reconfigure the device, some sort of easy-to-use desktop application should be built. 
+To make it easy for non-technical users to reconfigure the device, some sort of 
+easy-to-use desktop application should be built. 
 
-Once the firmware is worked out, I'd like to experiment with using Electron and modern web technologies to build this interface. 
+Once the firmware is worked out, I'd like to experiment with using Electron and 
+modern web technologies to build this interface. 
 ```
 
 ### Mechanical
 ```
 TODO:
 =====
-Connecting a plain plastic tube directly the sensor is fine for prototyping, but is not hygienic for real-world users. Some sort of easy-to-replace filter(s) should be added to capture saliva and particulates before they reach the sensor. 
+Connecting a plain plastic tube directly the sensor is fine for prototyping, but 
+is not hygienic for real-world users. Some sort of easy-to-replace filter(s) 
+should be added to capture saliva and particulates before they reach the sensor. 
 
-I don't know much about these sorts of filters, so if you have some experience or ideas please send them to me!
+I don't know much about these sorts of filters, so if you have some experience or 
+ideas please send them to me!
 ```
 
 ## Similar projects
