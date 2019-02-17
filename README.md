@@ -23,7 +23,9 @@ Therefore my current plan is to experiment with [Electron](http://electron.atom.
 ## License
 This work is licensed under a [Creative Commons Attribution-NonCommercial-ShareAlike 4.0 International License](http://creativecommons.org/licenses/by-nc-sa/4.0/).
 
-Use this project to learn, tinker and share with friends. Small commercial runs for workshops or other educational uses is completely cool, but please contact me if you'd like to mass produce this project for profit.
+Use this project to learn, tinker and share with friends. You are completely free to build this project for individuals  who need it. Small commercial runs for workshops or other educational uses are also completely cool.
+
+The only reason that a fully-permissive open-source license is not used is to discourage, however naively, abuse through mass production and sale of this project by companies who are not as passionate about the quality and core mission of the project. If you're interested in producing and distributing this project to larger markets, please contact me and maybe we can collaborate!
 
 [![Creative Commons license](https://i.creativecommons.org/l/by-nc-sa/4.0/88x31.png)](http://creativecommons.org/licenses/by-nc-sa/4.0/)
 
